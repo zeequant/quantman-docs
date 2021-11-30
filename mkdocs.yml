@@ -1,0 +1,17 @@
+site_name: Quantman
+theme:
+  name: material
+  favicon: assets/favicon.png
+nav:
+  - FAQ: "index.md"
+copyright: Copyright © 2021, Quantman. All rights reserved.
+extra:
+  generator: false
+  social: 
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/quantman1
+  - icon: fontawesome/brands/facebook
+    link: https://www.facebook.com/quant.man.16/
+markdown_extensions:
+  - attr_list
+  - md_in_html
