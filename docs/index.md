@@ -2,7 +2,9 @@
 
 ## Create a new Quant
 #### 1. Options Strategy Builder
+
 If you want to create a options based strategy like straddle/strangle/... at specified time daily, select the option strategy,
+
 1. select the instrument. (type nifty and select it)
 2. enter the stop gain/stop loss values for each legs
 3. click 'continue'
