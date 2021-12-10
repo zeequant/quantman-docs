@@ -5,27 +5,33 @@
 - Theme: [material](https://github.com/squidfunk/mkdocs-material).
 
 
-To Remember:
+#### Branch Structure:
 
 - We use two seperate branches.
 - Master - For having mkdocs Config files to generate HTML content
 - gh-pages - For having Actual generated HTML content.
 
 
-To Run in local:
+#### New Setup.
 
 ```
 pip install mkdocs
 
-mkdocs new quantman-docs
+pip install mkdocs-material
 
-cd quantman-docs
+mkdocs new quantman-docs
+```
+
+#### To Run in local:
+
+To Install pip in OSX follow: https://www.geeksforgeeks.org/how-to-install-pip-in-macos/
+```
+pip install mkdocs
 
 mkdocs serve
 ```
 
-
-To Deploy in Github-Pages:
+#### To Deploy in Github-Pages:
 
 - Build command - Generate a HTML content for a site using a config files.
 
