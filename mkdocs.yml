@@ -5,9 +5,9 @@ theme:
 nav:
   - Welcome: "index.md"
   - Live Execution: "liveExecution.md"
-  - Quant Creation: "quantCreation.md"
-  - Indicators: "indicators.md"
-  - Signals: "signals.md"
+  # - Quant Creation: "quantCreation.md"
+  # - Indicators: "indicators.md"
+  # - Signals: "signals.md"
   - Transaction: "transaction.md"
   - BackTest Result: "backtestResult.md"
   - "Recent/Active Transactions Panel": "transactionPanel.md"

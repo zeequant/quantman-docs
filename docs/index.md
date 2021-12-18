@@ -3,18 +3,23 @@
 ## Create a new Quant
 #### 1. Options Strategy Builder
 
-If you want to create a options based strategy like straddle/strangle/... at specified time daily, select the option strategy,
+If you want to create a options based strategy like straddle/strangle/... at specified time daily, 
 
-1. select the instrument. (type nifty and select it)
-2. enter the stop gain/stop loss values for each legs
-3. click 'continue'
-4. In the new quant creation page, everything is already filled based on you selection. Just go to the bottom of the page and 
+<figure markdown>![Options Strategy Builder](img/dashboard-optionsStrategyBuilder.png){ width="auto" }</figure>
+
+1. select the option strategy you want to choose (Buy Call / Straddle / ...)
+2. select the instrument. (type nifty and select it)
+3. enter the stop gain/stop loss values for each legs
+4. click 'continue'
+5. In the new quant creation page, everything is already filled based on you selection. Just go to the bottom of the page and 
 click 'Run Backtest'
-5. In a few seconds, you should have the backtest result for your option strategy.
+6. In a few seconds, you should have the backtest result for your option strategy.
 
 #### 2. Readmade Strategy Builder
 If you want to create a strategy based on super-trend or simple moving average or other such indicators, go to the 
 'Readymade Strategies' (second section).
+
+<figure markdown>![Readmade Strategy Builder](img/dashboard-readymadeStrategies.png){ width="auto" }</figure>
 
 1. In supertrend, select the instrument you want. (type nifty and select it)
 2. Adjust the candle interval or the CE/PE option that you want buy/sell
@@ -26,6 +31,8 @@ click 'Run Backtest'
 #### 3. Copying And Editing Profitable Strategies
 Profitable Strategies lists some of the strategies already backtested and showcased by our platform Admin. You can click left or right button 
 and view the different strategies displayed for you. 
+
+<figure markdown>![Readmade Strategy Builder](img/dashboard-profitableStrategies.png){ width="auto" }</figure>
 
 The Profitable strategy shows the graph of how the profit has increased/decreased over time and few metrics like winning probability, 
 win/loss streak, max profit/max loss and a few others.
@@ -52,22 +59,22 @@ You can create a strategy from scratch using this quant builder.
 ## Header Icons
 ---------------------------------------------------------------------------------------------------
 
+<figure markdown>![Quantman Header](img/header.png){ width="auto" }</figure>
+
 In the header right side, you will see
+
 1. transactions panel button
 2. notifications panel button
 3. theme switcher button
 4. general settings dropdown
 
+#### 1. Recent/active transactions panel
 
-![Strike Index](img/strikeIndex.png){ width="auto" }
+<figure markdown>![Transactions Panel](img/transactionPanel.png){ width="auto" }</figure>
 
-#### 1. Recent/active transactions panel button
+#### 2. Notification panel 
 
-
-![Strike Index](img/strikeIndex.png){ width="auto" }
-
-#### 2. Notification panel button
-
+<figure markdown>![Notification Panel](img/notificationPanel.png){ width="auto" }</figure>
 
 ![Strike Index](img/strikeIndex.png){ width="auto" }
 
