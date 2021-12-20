@@ -1,4 +1,4 @@
-# Transation
+# Transaction
 
 ## Monthly/Weekly
 
