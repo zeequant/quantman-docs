@@ -1,17 +1,29 @@
 site_name: Quantman
+
 theme:
   name: material
-  favicon: assets/favicon.png
+  palette:
+    primary: white
+    accent: blue
+
+  logo: img/quantman-icon.svg
+  favicon: img/favicon.png
+  font:
+    text: Poppins
 nav:
   - FAQ: "index.md"
 copyright: Copyright © 2021, Quantman. All rights reserved.
+extra_css:
+  - stylesheets/common.css
+  - stylesheets/header.css
+  - stylesheets/footer.css
 extra:
   generator: false
   social: 
-  - icon: fontawesome/brands/twitter
-    link: https://twitter.com/quantman1
   - icon: fontawesome/brands/facebook
     link: https://www.facebook.com/quant.man.16/
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/quantman1
 markdown_extensions:
   - attr_list
   - md_in_html
