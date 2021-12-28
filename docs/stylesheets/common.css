@@ -19,3 +19,15 @@ figure img {
 .md-typeset figcaption {
     margin: 1em auto 1em;
 }
+
+.md-typeset {
+    font-size: 16px;
+}
+
+.md-typeset h2 {
+    font-weight: 500;
+}
+
+.md-typeset h1 {
+    font-weight: 700;
+}
