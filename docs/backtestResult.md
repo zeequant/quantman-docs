@@ -47,7 +47,7 @@ Average profit is the average of all successful *transactions*'s profit.
 Average loss is the average of all losing *transaction*'s loss
 #### Win Streak/Loss Streak:
 
-Win streak in the maximum continuous number of winning/hit transactions and loss streak is the maximum continous number of loss/miss transactions.
+Win streak is the maximum continuous number of winning/hit transactions and loss streak is the maximum continous number of loss/miss transactions.
 
 *Example:*
 
