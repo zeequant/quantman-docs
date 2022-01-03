@@ -1,0 +1,33 @@
+:root>* {
+    --white: #fff;
+    --black: #000;
+ 
+    /* Footer */
+    --md-footer-bg-color: var(--white);
+    --md-footer-bg-color--dark: var(--white);
+    --md-footer-fg-color: var(--black);
+    --md-footer-fg-color--light: var(--black);
+    --md-footer-fg-color--lighter: var(--black);
+}
+
+figure img {
+    border: 8px solid #e6e9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 35px rgb(140 152 164 / 13%);
+}
+
+.md-typeset figcaption {
+    margin: 1em auto 1em;
+}
+
+.md-typeset {
+    font-size: 16px;
+}
+
+.md-typeset h2 {
+    font-weight: 500;
+}
+
+.md-typeset h1 {
+    font-weight: 700;
+}

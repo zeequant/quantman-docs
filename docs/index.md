@@ -1,55 +1,87 @@
-# FAQ
+# Welcome / Getting Started
 
-#### **What is Hit/Miss?**
+## Create a new Quant
+#### 1. Options Strategy Builder
 
-- Hit: A transaction that ended in profit. 
-- Miss: A transaction that ended in loss.
+If you want to create a options based strategy like straddle/strangle/... at specified time daily, 
 
-For Multiple Legs Transaction:
+<figure markdown>![Options Strategy Builder](img/dashboard-optionsStrategyBuilder.png){ width="auto" }</figure>
 
-- A transaction will be counted as hit, if the entry/exit of all the legs results in an overall profit.
-- A transaction will be counted as miss, if the entry/exit of all the legs in an overall loss.
+1. select the option strategy you want to choose (Buy Call / Straddle / ...)
+2. select the instrument. (type nifty and select it)
+3. enter the stop gain/stop loss values for each legs
+4. click 'continue'
+5. In the new quant creation page, everything is already filled based on you selection. Just go to the bottom of the page and 
+click 'Run Backtest'
+6. In a few seconds, you should have the backtest result for your option strategy.
 
-<figure markdown> <!--  -->
-  ![Hit Miss](img/hit|miss.png){ width="auto" }
-  <figcaption>Hit Miss</figcaption>
-</figure>
+#### 2. Readmade Strategy Builder
+If you want to create a strategy based on super-trend or simple moving average or other such indicators, go to the 
+'Readymade Strategies' (second section).
 
-**Note:** In case of trade type, we show each leg as hit/miss if the leg's entry/exit resulted in a profit/loss.
+<figure markdown>![Readmade Strategy Builder](img/dashboard-readymadeStrategies.png){ width="auto" }</figure>
 
+1. In supertrend, select the instrument you want. (type nifty and select it)
+2. Adjust the candle interval or the CE/PE option that you want buy/sell
+3. Click 'continue'
+4. In the new quant creation page, everything is already filled based on you selection. Just go to the bottom of the page and 
+click 'Run Backtest'
+5. In a few seconds, you should have the backtest result for your strategy.
 
-#### **How Strike Index Works?**
+#### 3. Copying And Editing Profitable Strategies
+Profitable Strategies lists some of the strategies already backtested and showcased by our platform Admin. You can click left or right button 
+and view the different strategies displayed for you. 
 
-ATM/ITM/OTM:
+<figure markdown>![Readmade Strategy Builder](img/dashboard-profitableStrategies.png){ width="auto" }</figure>
 
-ITM 2 CE and OTM 2 PE will be the same strike prices. For CE/PE the ITM/OTM will be the reverse.
+The Profitable strategy shows the graph of how the profit has increased/decreased over time and few metrics like winning probability, 
+win/loss streak, max profit/max loss and a few others.
 
-If current future price is 10,000.
+1. To view a profitable strategy in more detail, click on the "View full details" which is shown when you move the mouse over the graph.
+2. Here you will see the strategy in more detail with a lot more details. Each section is explained seperately in another faq page.
+3. Click on the "Edit And Copy" button,
+4. You will see a new Quant Creator with that profitable strategies configuration. Go through it, change anything you want 
+5. Go to the bottom of the page and click 'Run Backtest'
+6. In a few seconds, you should have the backtest result ready and displayed.
 
-| CE  | Strike Price  | PE  |
-|--------|--------|-------|
-| OTM 2  | 10,200 | ITM 2 |
-| OTM 1  | 10,100 | ITM 1 |
-| ATM    | 10,000 | ATM   |
-| ITM 1  | 9,900  | OTM 1 |
-| ITM 2  | 9,800  | OTM 2 |
+#### 4. Using Quant Builder
+You can create a strategy from scratch using this quant builder. 
 
+1. Click the 'Create' button in the page header.
+2. Fill in the date range for which you want to backtest the strategy.
+3. Fill in the indicators
+4. Add the entry and exit signal based on your indicators 
+5. Select the options/future you want to transact when entry signal is achieved.
+6. Select appropriate stoploss/stopgain in individual legs and in overall section.
+5. Go to the bottom of the page and click 'Run Backtest'
+6. In a few seconds, you should have the backtest result ready and displayed.
 
-<figure markdown> <!--  -->
-  ![Strike Index](img/strikeIndex.png){ width="auto" }
-  <figcaption>Strike Index</figcaption>
-</figure>
+## Header Icons
+---------------------------------------------------------------------------------------------------
 
+<figure markdown>![Quantman Header](img/header.png){ width="auto" }</figure>
 
-Explanation from [investopedia](https://www.investopedia.com/ask/answers/042715/what-difference-between-money-and-out-money.asp)
+In the header right side, you will see
 
+1. transactions panel button
+2. notifications panel button
+3. theme switcher button
+4. general settings dropdown
 
-- A call option with a strike price of $132.50, for example, would be considered ITM if the underlying stock is valued at $135 per share because the strike price has already been exceeded. 
-- A call option with a strike price above $135 would be considered OTM because the stock has not yet reached this level.
+#### 1. Recent/active transactions panel
 
-- A put option with a strike price of $75 is considered in the money if the underlying stock is valued at $72 because the stock price has already moved below the strike. 
-- That same put option would be out of the money if the underlying stock is trading at $80.
+<figure markdown>![Transactions Panel](img/transactionPanel.png){ width="auto" }</figure>
 
-We will try to improve the user interface so that it is not confusing in the future.
+#### 2. Notification panel 
 
-Thank you for your interest and support for the platform.
+<figure markdown>![Notification Panel](img/notificationPanel.png){ width="auto" }</figure>
+
+![Strike Index](img/strikeIndex.png){ width="auto" }
+
+#### 3. Theme swicher button
+
+Switch between light theme and dark theme using this button. Go ahead, try it out in [www.quantman.in](htttps://www.quantman.in)
+
+#### 4. General settings dropdown.
+
+You can check your quota usage, notification settings and payment history using these settings pages.
