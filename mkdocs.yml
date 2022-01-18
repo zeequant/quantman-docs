@@ -20,6 +20,8 @@ nav:
   - BackTest Result: "backtestResult.md"
   - "Recent/Active Transactions Panel": "transactionPanel.md"
   - "Plans/Addon/Quota": "plansAndQuota.md"
+  - "Broker Credentials":
+        - "ICICI Direct Api": "ICICIDirectApi.md"
 copyright: Copyright © 2021, Quantman. All rights reserved.
 extra_css:
   - stylesheets/common.css

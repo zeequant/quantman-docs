@@ -11,13 +11,9 @@
 }
 
 figure img {
-    border: 5px solid #e6e9f9;
-    border-radius: 5px;
+    border: 8px solid #e6e9f9;
+    border-radius: 10px;
     box-shadow: 0 0 35px rgb(140 152 164 / 13%);
-}
-
-.figure p {
-    margin: 0;
 }
 
 .md-typeset figcaption {
@@ -28,16 +24,10 @@ figure img {
     font-size: 16px;
 }
 
-.md-typeset h1 {
-    font-weight: 700;
-}
-
 .md-typeset h2 {
     font-weight: 500;
 }
 
-p {
-    margin: 10px 0;
+.md-typeset h1 {
+    font-weight: 700;
 }
-
-
