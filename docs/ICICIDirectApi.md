@@ -68,6 +68,6 @@ Now, Please check your app status if its  <b>Active</b>
 
 #### Step 11
 
-Copy and paste api details in appropriate fields below.
+Copy and paste api details, Fill in appropriate fields.
 
 <figure markdown>![ICICI Direct](img/icici-direct-9.png){ width="auto" }</figure>
