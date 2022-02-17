@@ -1,5 +1,7 @@
 # Backtest Result
 
+!!! info "Disclaimer"
+    Past performance is not a necessary indication of future profits and the fact that substantial deviations from past performance are possible on account of volatility and slippages in live market.
 #### What is a Transaction ?
 If you have backtest with configuration to 
 

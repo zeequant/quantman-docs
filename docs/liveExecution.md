@@ -1,5 +1,7 @@
 # Live Execution
 
+!!! info "Disclaimer"
+    Past performance is not a necessary indication of future profits and the fact that substantial deviations from past performance are possible on account of volatility and slippages in live market.
 
 ## Broker Integrated Order Execution Setup
 
